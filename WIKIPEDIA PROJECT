@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT HTML</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        /* Article Styles */
+        .article {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .article-title {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .article-content {
+            text-align: justify;
+            font-size: 1em;
+            color: #666;
+        }
+
+        .article-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        /* Button Styles */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WIKIPEDIA</h1>
+        <form action="#">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit" class="btn">Search</button>
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Index</a></li>
+            <li><a href="#">New Page</a></li>
+            <li><a href="#">Random Page</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome to Wikipedia!</h2>
+        <p>This is a collaborative online encyclopedia where you can learn about a variety of topics. 
+            Explore the different categories or search for specific information using the search bar above.</p>
+
+        <section>
+            <article class="article">
+                <img src="c:\Users\Arhin\Pictures\photo_2024-02-24_20-24-18.jpg" alt="Animals" class="article-image">
+                <h3 class="article-title">Animals</h3>
+                <p class="article-content">Animals are multicellular eukaryotic organisms of the kingdom Animalia, encompassing over 1.5 million described living species.
+                     They are mobile, heterotrophic organisms that consume organic material, breathe oxygen, have specialized sensory organs, reproduce sexually, and grow from a blastula during embryonic development.
+                     Animals are classified into vertebrates, which have a backbone, and invertebrates, which lack a backbone. Animals thrive in various environments, from extreme deserts to deep ocean depths, and exhibit remarkable diversity in habitat, size, and behavior.Animals play a critical role in maintaining the health of our planet, as they pollinate plants, disperse seeds, and control populations of other organisms.
+                     They also provide food sources for humans and other animals, and their scientific discovery has led to significant advancements in medicine, agriculture, and understanding of evolution and biology.
+                    
+                    However, human activities such as habitat destruction, pollution, and climate change pose significant threats to animal populations. 
+                    Conservation efforts are crucial to protect endangered species and ensure the continued diversity and well-being of animals for future generations. 
+                    By appreciating the diversity and importance of animals, we can foster a deeper connection with the natural world and work towards a future where all creatures can thrive..</p>
+            </article>
+
+            <article class="article">
+                <img src="c:\Users\Arhin\Pictures\photo_2024-02-24_20-53-09.jpg" alt="History" class="article-image">
+                <h3 class="article-title">History</h3>
+                <p class="article-content">
+                    History is the systematic study and documentation of the past, encompassing all aspects of human activity and experience from the beginning of time to the present day.
+                     It delves into the political, social, economic, cultural, technological, and intellectual developments of societies across the globe.
+                     Historians use various sources, such as written documents, oral traditions, archaeological artifacts, and visual materials, to reconstruct and understand past events.
+                      History is essentially the story of change, analyzing how societies, cultures, and individuals have evolved throughout time.
+
+                    Historians divide history into different periods based on significant events, cultural shifts, or technological advancements.
+                     Examples include prehistory, ancient history, medieval history, and modern history. Studying history offers valuable insights into the present and future by providing a deeper understanding of contemporary issues, political systems, social structures, and cultural norms. It also fosters critical thinking skills, promotes cultural awareness, and provides lessons from the past that can guide decision-making in the present and inform future endeavors.
+
+                    To delve deeper into history, explore resources such as Wikipedia articles, websites of reputable historical institutions and academic journals, documentaries, films, and educational materials, and books and articles by renowned historians and scholars.
+                     By engaging with history, we gain a deeper understanding of ourselves, our societies, and the world around us, fostering informed perspectives and responsible citizenship in the present and future.</p>
+            </article>
+
+            <article class="article">
+                <img src="c:\Users\Arhin\Pictures\photo_2024-02-24_20-53-01.jpg" alt="Science" class="article-image">
+                <h3 class="article-title">Science</h3>
+                <p class="article-content">Science is a methodical process of developing testable explanations and predictions about the world via observation, testing, and rigorous analysis.
+                     Its fundamental concepts are empiricism, rationality, objectivity, repeatability, and parsimony. 
+                     The scientific method is a cyclical process that includes observation, hypothesis development, prediction, experimentation, data analysis, conclusion, and communication.Science has an important role in many facets of our life, including comprehending the world, technological advancement, and issue solutions. It gives insights into the natural world, resulting in technical advances in a variety of sectors.
+                     However, the search of scientific knowledge is not without hurdles, such as prejudice, ethical quandaries, and knowledge constraints.
+                    
+                    To learn more, one can check out Wikipedia pages on certain scientific subjects, respected websites and online resources of scientific institutes, documentaries, videos,and educational materials that explore scientific concepts and discoveries. Additionally, books and articles by renowned scientists, philosophers, and science communicators can be found. Engaging with science helps develop critical thinking skills, fosters informed perspectives on the challenges and opportunities facing humanity in the 21st century</p>
+            </article>
+
+            <article class="article">
+                <img src="c:\Users\Arhin\Pictures\photo_2024-02-24_20-52-52.jpg" alt="Technology" class="article-image">
+                <h3 class="article-title">Technology</h3>
+                <p class="article-content">
+
+                    Technology is the application of scientific knowledge and skills to solve practical problems and create new tools, processes, and systems.
+                     It encompasses tangible products like machines, devices, and infrastructure, as well as intangible concepts like software, algorithms, and techniques. 
+                     Technology is driven by the desire to address human needs and challenges, and is constantly evolving through continuous research, development, and invention. 
+                     It shapes and influences various aspects of human life, including communication, transportation, healthcare, education, and entertainment.
+
+                    Technology can be broadly categorized into physical technology, information technology, biotechnology, nanotechnology, and emerging technologies like artificial intelligence, robotics, and virtual reality.
+                     The impact of technology is profound, with positive impacts such as improved communication, healthcare advancements, efficient transportation, automation of tasks, access to information, and innovative solutions to global challenges. 
+                     However, it also has negative impacts, such as job displacement, potential misuse of technology for malicious purposes, privacy concerns, environmental degradation, and social inequalities in access and utilization.
+                    
+                    Ethical considerations include responsible development, data privacy and security, algorithmic bias, and environmental sustainability.
+                     The future of technology is constantly evolving, with potential areas of development including artificial intelligence, automation, biotechnology, and robotics.
+                    
+                    To explore further, explore resources such as Wikipedia articles, websites of reputable technology companies, documentary films, educational materials, and books by renowned scholars, technologists, and philosophers.
+                     By understanding the nature, impact, and potential of technology, we can engage in informed discussions, make responsible choices, and contribute to shaping a future where technology serves to improve the lives of all..</p> 
+            </article>
+
+        </section>
+    </main>
+</body>
+</html>
