@@ -105,6 +105,40 @@
         .btn:hover {
             background-color: #0056b3;
         }
+        .trivia {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .trivia h3 {
+            color: #333;
+        }
+        .trivia ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .trivia li {
+            margin-bottom: 10px;
+        }
+        .trivia strong {
+            color: #007bff;
+        }
+        .trivia span {
+            margin-left: 10px;
+            color: #555;
+        }
+
+        .footer {
+            text-align: center;
+            margin: 0;
+            font-size: 15px;
+            background-color: #333;
+            color: #fff;
+            padding: auto;
+        }
+        
     </style>
 </head>
 <body>
@@ -127,7 +161,18 @@
         <h2>Welcome to Wikipedia!</h2>
         <p>This is a collaborative online encyclopedia where you can learn about a variety of topics. 
             Explore the different categories or search for specific information using the search bar above.</p>
-
+           
+            <section class="trivia">
+                <h3>DID YOU KNOW?</h3>
+                <ul>
+                    <li><strong>Question 1:</strong> What is the capital of France?</li>
+                    <li><strong>Answer 1:</strong>Paris</li>
+                    <li><strong>Question 2:</strong> In which year did Tatanic sink?</li>
+                    <li><strong>Answer 2:</strong>1912</li>
+                    <li><strong>Question 3:</strong> What is the biggest animal on earth?</li>
+                    <li><strong>Answer 3:</strong>The blue whale(Balaenoptera)</li>
+                </ul>
+            </section>
         <section>
             <article class="article">
                 <img src="c:\Users\Arhin\Pictures\photo_2024-02-24_20-24-18.jpg" alt="Animals" class="article-image">
@@ -192,5 +237,10 @@
 
         </section>
     </main>
+    
+    <footer class="footer">
+        &copy; 2024 Wikipedia Project by Group 1K1. 
+    </footer>
+    
 </body>
 </html>
